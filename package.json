@@ -1,0 +1,27 @@
+{
+  "name":"searchengine",
+  "version":"1.0.0",
+  "description":"This is my first server-side on Prisma with Restful API",
+  "type":"module",
+  "main":"server.js",
+  "scripts":{
+    "server":"nodemon server.js"
+  },
+  "keywords":[
+    "Search",
+    "Engine",
+    "API"
+  ],
+  "author":"Trọng Anh",
+  "license":"ISC",
+  "devDependencies": {
+    "prisma":"^6.7.0"
+  },
+  "dependencies": {
+    "@prisma/client":"^6.7.0",
+    "cors":"^2.8.5",
+    "dotenv":"^16.5.0",
+    "express":"^5.1.0",
+    "nodemon":"^3.1.10"
+  }
+}
